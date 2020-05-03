@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "eventualdata",
+	"version": "${version}",
+
+	"name": "Eventual Data",
+	"description": "Data Driven Events System based on Advancement Triggers",
+
+	"authors": [
+		"Mulverine"
+	],
+	"contact": {
+		"email": "mulverin3@gmail.com",
+		"homepage": "https://github.com/MulverineX/eventual-data",
+		"issues": "https://github.com/MulverineX/eventual-data/issues",
+		"sources": "https://github.com/MulverineX/eventual-data"
+	},
+
+	"license": "CC0",
+	"icon": "assets/eventualdata/logo.png",
+
+	"environment": "*",
+	"mixins": [
+		{
+			"config": "eventualdata.mixins.json"
+		},
+		{
+			"config": "eventualdata.compat.mixins.json"
+		}
+	],
+	"entrypoints": {
+		"main": [
+			{
+				"value": "io.github.mulverine.eventualdata.EventualData"
+			}
+		]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
