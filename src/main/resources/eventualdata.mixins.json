@@ -3,8 +3,8 @@
 	"package": "io.github.mulverine.eventualdata.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
-      "io.github.mulverine.eventualdata.mixin.MixinServerStatHandler",
-      "io.github.mulverine.eventualdata.mixin.advancement.MixinCriterions"
+      "MixinServerStatHandler",
+      "advancement.MixinCriterions"
 	],
 	"injectors": {
 		"defaultRequire": 1

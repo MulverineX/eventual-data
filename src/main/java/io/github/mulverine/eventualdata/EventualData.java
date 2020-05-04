@@ -66,5 +66,6 @@ public class EventualData implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		logInfo("Hello World!");
 	}
 }

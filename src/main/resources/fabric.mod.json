@@ -17,15 +17,11 @@
 	},
 
 	"license": "CC0",
-	"icon": "assets/eventualdata/logo.png",
 
 	"environment": "*",
 	"mixins": [
 		{
 			"config": "eventualdata.mixins.json"
-		},
-		{
-			"config": "eventualdata.compat.mixins.json"
 		}
 	],
 	"entrypoints": {
